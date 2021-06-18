@@ -10,5 +10,13 @@ class NBGCurrencyViewModel : ViewModel() {
     private val _currencyModel = MutableLiveData<List<ListItemClass>>()
     val currencyModel: LiveData<List<ListItemClass>> get() = _currencyModel
 
+    init {
+
+    }
+
+    fun getData(){
+
+    }
+
 
 }
